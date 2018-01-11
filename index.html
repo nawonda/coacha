@@ -1,0 +1,96 @@
+<html lang="en"><head>
+
+    <meta charset="UTF-8">
+
+    <title>Coach A - Weather App</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,700,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet prefetch" href="css/weather-icons-master/css/weather-icons.min.css">
+    <link rel="stylesheet prefetch" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body translate="no">
+
+<div class="container">
+    <div class="row">
+        <header class="col-xs-12 text-center">
+            <h1>We<i class="wi wi-hail"></i>ther Application</h1>
+        </header>
+        <div class="text-center all-icon loading">
+            <span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 hide weather-content">
+            <div class="text-center status">
+                <p>
+                    <span id="city">City, </span>
+                    <span id="country">Country</span>
+                </p>
+                <p>
+                    <span id="temp">Temperature</span>
+                    <span class="temp tempunit">C</span>
+                </p>
+                <p id="desc">Description</p>
+            </div>
+
+            <div class="text-center all-icon">
+                <div class="icon sun-shower hide ">
+                    <div class="cloud"></div>
+                    <div class="sun">
+                        <div class="rays"></div>
+                    </div>
+                    <div class="rain"></div>
+                </div>
+                <div class="icon thunder-storm hide thunderstom">
+                    <div class="cloud"></div>
+                    <div class="lightning">
+                        <div class="bolt"></div>
+                        <div class="bolt"></div>
+                    </div>
+                </div>
+                <div class="icon cloudy hide clouds">
+                    <div class="cloud"></div>
+                    <div class="cloud"></div>
+                </div>
+                <div class="icon flurries hide snow">
+                    <div class="cloud"></div>
+                    <div class="snow">
+                        <div class="flake"></div>
+                        <div class="flake"></div>
+                    </div>
+                </div>
+                <div class="icon sunny hide clear">
+                    <div class="sun">
+                        <div class="rays"></div>
+                    </div>
+                </div>
+                <div class="icon rainy hide rain">
+                    <div class="cloud"></div>
+                    <div class="rain"></div>
+                </div>
+            </div>
+
+        </div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Weekday</th>
+                <th scope="col">Date</th>
+                <th scope="col">Temperature</th>
+                <th scope="col">Weather</th>
+            </tr>
+            </thead>
+            <tbody class="forecast-table">
+            </tbody>
+        </table>
+
+        <p class="bottom text-center">Created By <a href="https://www.jerry1215.com/resume" target="_blank">JerryChang</a></p>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="weather.js"></script>
+
+</body></html>
