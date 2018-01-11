@@ -6,7 +6,7 @@
 * User can toggle the temperature unit (Celsius or Fahrenheit).
 * Weather icon or background image will change depending on weather conditions.
 
-Reference 
+**Reference**
 
 1. Weather Data
 
@@ -34,5 +34,5 @@ https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 //maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css
 
 
-Notes:
+**Notes:**
 For demo and explanation purposes, weather.js and style.css are not compressed into .min format
