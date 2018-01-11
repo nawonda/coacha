@@ -1,8 +1,5 @@
 ## Weather Application - Coach A project
 
-Create by Jerry Chang
-
-
 **Implement the following user stories:**
 
 * User can view the weather in his/her current location.
