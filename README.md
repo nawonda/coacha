@@ -5,6 +5,7 @@
 * User can view the weather in his/her current location.
 * User can toggle the temperature unit (Celsius or Fahrenheit).
 * Weather icon or background image will change depending on weather conditions.
+* To view demo please go to https://www.jerry1215.com/coacha/
 
 **Reference**
 
