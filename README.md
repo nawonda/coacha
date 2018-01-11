@@ -37,3 +37,5 @@ https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 
 **Notes:**
 For demo and explanation purposes, weather.js and style.css are not compressed into .min format
+
+![Alt text](screenshot.png?raw=true "Title")
