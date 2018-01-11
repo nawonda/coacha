@@ -1,4 +1,4 @@
-Weather Application - Coach A project
+**Weather Application - Coach A project**
 
 Create by Jerry Chang
 
